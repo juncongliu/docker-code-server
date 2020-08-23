@@ -1,4 +1,4 @@
-FROM lsiobase/ubuntu:arm32v7-bionic
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0
 
 # set version label
 ARG BUILD_DATE
